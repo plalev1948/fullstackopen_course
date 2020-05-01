@@ -1,0 +1,22 @@
+New note-->POST request: Step 1.
+
+POST request-->statuscode 201 created: Step 3.
+
+statuscode 201 created-->Jcommand document.getElementById('notes_form'): Step 3.
+
+command document.getElementById('notes_form')-->event handler: Step 4.
+
+event handler-->New note: Step 6.
+
+note over browser:
+Step 0: Empty the Network-tab element of your console with the  ∅ symbol;
+Step 1: When you create a new note it will send only one request to the server;
+Step 2: Your POST request contains the new note as JSON-data;
+Step 3:The response from the server will be with statuscode 201 created;
+Step 4:The command document.getElementById('notes_form') instructs the code to fetch the form element from the page;
+Step 4:It also registers an event handler;
+Step 5:The event handler immediately calls the method e.preventDefault() to prevent the default handling of form submit.
+Step 6:The event handler creates a new note, adds it to the notes list, rerenders the note list on the page and sends the new note to the server.
+Step 7: The JavaScript code tells us that the data is to be sent with an HTTP post;
+Step 8:Then the data is sent as JSON-string.
+end note

@@ -1,0 +1,16 @@
+the notes page-->HTML code: Step 1.
+
+HTML code-->the browser: Step 1.
+
+the browser-->JavaScript code: Step 2.
+
+JavaScript code-->notes from the server: Step 3.
+
+JavaScript code-->adds HTML elements: Step 4.
+
+note over browser:
+Step 1:the notes page generates the HTML code for existing notes to the browser;
+Step 2:the browser executes JavaScript to deal with the task;
+Step 3:the code fetches the notes from the server as JSON-data;
+Step 4:the code aslo adds some HTML elements for displaying the notes to the page.
+end note

@@ -1,0 +1,15 @@
+user-->text field: text
+
+text field-->submit button: text
+
+submit button-->new note: 
+
+submit button-->https://fullstack-exampleapp.herokuapp.com/notes
+
+note over browser:
+user writes his desired text in the text field
+the user presses the submit button
+browser executes the operation
+a new note is created on page https://fullstack-exampleapp.herokuapp.com/notes
+end note
+
