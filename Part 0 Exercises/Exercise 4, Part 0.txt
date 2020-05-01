@@ -1,3 +1,5 @@
+//For the 3 following exercises I used: https://www.websequencediagrams.com/
+
 user-->text field: text
 
 text field-->submit button: text
